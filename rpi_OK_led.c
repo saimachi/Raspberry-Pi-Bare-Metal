@@ -26,7 +26,3 @@ void  main(void) {
 		*gpio_clear_1 |= (1<<16);
 	}
 }
-
-	
-
-
