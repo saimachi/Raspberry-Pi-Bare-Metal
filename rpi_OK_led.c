@@ -12,6 +12,7 @@ void  main(void) {
 	volatile unsigned long int* gpio_clear_1 = (unsigned long int*) GPCLR1;
 
 	*func_select_4 |= (1<<21);
+	
 	volatile unsigned int timer;
 
 	while (1) {
